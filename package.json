@@ -18,7 +18,13 @@
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "wds",
+    "wtr",
+    "playwright",
+    "commands",
+    "plugin"
+  ],
   "author": "Michael Romer",
   "license": "MIT",
   "bugs": {
