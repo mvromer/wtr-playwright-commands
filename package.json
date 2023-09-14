@@ -16,7 +16,7 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Michael Romer",
@@ -31,5 +31,8 @@
   "prettier": {
     "semi": true,
     "singleQuote": true
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
