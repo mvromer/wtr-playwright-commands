@@ -1,0 +1,35 @@
+{
+  "name": "wtr-playwright-commands",
+  "version": "0.1.0",
+  "description": "Custom commands for interacting with Playwright within Web Test Runner tests.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./plugin.js": {
+      "types": "./dist/plugin.d.ts",
+      "import": "./dist/plugin.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Michael Romer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvromer/wtr-playwright-commands/issues"
+  },
+  "homepage": "https://github.com/mvromer/wtr-playwright-commands#readme",
+  "peerDependencies": {
+    "@web/test-runner": "^0.17"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true
+  }
+}
