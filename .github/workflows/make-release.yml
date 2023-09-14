@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: npm install
     - name: Set package version
-      run: npm version --no-git-tag-version ${{ inputs.version }}
+      run: npm version --allow-same-version --no-git-tag-version ${{ inputs.version }}
     - name: Build wtr-playwright-commands
       run: npm run build
     - name: Publish wtr-playwright-commands ${{ inputs.version }}
