@@ -26,13 +26,16 @@
   },
   "homepage": "https://github.com/mvromer/wtr-playwright-commands#readme",
   "peerDependencies": {
-    "@web/test-runner": "^0.17"
+    "@web/test-runner": "^0.17",
+    "@web/test-runner-playwright": "^0.10"
   },
   "prettier": {
     "semi": true,
     "singleQuote": true
   },
   "devDependencies": {
+    "@web/test-runner": "^0.17.1",
+    "@web/test-runner-playwright": "^0.10.1",
     "typescript": "^5.2.2"
   }
 }

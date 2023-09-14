@@ -3,9 +3,7 @@
     "target": "es2022",
     "lib": ["ES2022"],
     "module": "ES2022",
-    "moduleResolution": "nodenext",
-    // "resolvePackageJsonExports": true,                /* Use the package.json 'exports' field when resolving package imports. */
-    // "resolvePackageJsonImports": true,                /* Use the package.json 'imports' field when resolving imports. */
+    "moduleResolution": "node",
     "declaration": true,
     "declarationMap": true,
     "outDir": "./dist",
