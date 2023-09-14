@@ -18,6 +18,13 @@
   "scripts": {
     "build": "tsc"
   },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvromer/wtr-playwright-commands.git"
+  },
   "keywords": [
     "wds",
     "wtr",
